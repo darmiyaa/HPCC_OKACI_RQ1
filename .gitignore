@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+*.pyc
+
+# Private/raw data
+data/raw/
+data/private/
+data/processed/
+
+# Python cache
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.log
+
+# Local experiment outputs
+baseline_results/
+aci_results/
+conformal_results/
+spaci_results/
+calibration_analysis/
+patient_analysis/
+stability_analysis/
+temporal_split/
+reports/
